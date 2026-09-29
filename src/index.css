@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Merriweather", serif;
+  --font-sans: "Lato", sans-serif;
+  --color-forest: #2e6043;
+  --color-emerald-custom: #4caf50;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, .font-heading {
+  font-family: var(--font-serif);
+}

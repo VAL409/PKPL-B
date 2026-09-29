@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Admin",
+    "email": "Admin@mail.com",
+    "phone": "0812-3456-7890",
+    "address": "Jl. Dago Asri No. 12, Bandung, Jawa Barat 40135",
+    "password": "password123",
+    "createdAt": "2026-09-01T00:00:00.000Z"
+  },
+  {
+    "name": "Valez",
+    "email": "valez@mail.com",
+    "phone": "",
+    "address": "",
+    "password": "12345678",
+    "createdAt": "2026-09-29T11:34:46.658Z"
+  }
+]
