@@ -1,4 +1,4 @@
-# GreenLeaf - Website Toko & Katalog Tanaman Hias (React + Tailwind CSS)
+# GreenLeaf - Website Toko & Katalog Tanaman Hias 
 
 Proyek ini merupakan hasil migrasi dan modernisasi dari kode PHP & jQuery sebelumnya menjadi aplikasi modern berbasis **React (Vite) + Tailwind CSS**.
 
@@ -59,9 +59,9 @@ tanaman-hias-react/
 
 ## 💻 Cara Menjalankan Proyek
 
-1. Buka terminal di folder `tanaman-hias-react`:
+1. Buka terminal di folder `tanaman-hias`:
    ```bash
-   cd tanaman-hias-react
+   cd tanaman-hias
    ```
 2. Jalankan server lokal:
    ```bash
