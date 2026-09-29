@@ -1,30 +1,5 @@
 # GreenLeaf - Website Toko & Katalog Tanaman Hias 
 
-Proyek ini merupakan hasil migrasi dan modernisasi dari kode PHP & jQuery sebelumnya menjadi aplikasi modern berbasis **React (Vite) + Tailwind CSS**.
-
----
-
-## 🚀 Fitur Unggulan
-
-1. **Desain Modern & Responsif**: Dibangun dengan Tailwind CSS, tampilan elegan di perangkat ponsel (*mobile-friendly*) maupun komputer desktop.
-2. **Navigasi SPA Tanpa Reload**: Pindah antar halaman (Beranda, Katalog, Kontak) berlangsung instan dan mulus tanpa berkedip.
-3. **Katalog Interaktif Dinamis**:
-   - Filter instan berdasarkan kategori (*Semua, Indoor, Outdoor, Sukulen, Unggulan, Unik*).
-   - Fitur pencarian nama tanaman (*Instant Search*).
-   - Indikator kebutuhan cahaya & frekuensi penyiraman pada setiap tanaman.
-4. **Lightbox Modal (Pratinjau Foto)**: Klik pada gambar untuk melihat tanaman dalam resolusi penuh dengan animasi halus.
-5. **Keranjang Belanja (*Shopping Cart Drawer*)**:
-   - Menambah, mengurangi, dan menghapus tanaman.
-   - Perhitungan subtotal harga otomatis dalam format Rupiah.
-   - Tombol **"Pesan via WhatsApp"** yang otomatis merangkum daftar tanaman dan total harga ke chat WhatsApp admin.
-6. **Simulasi Login & Profil Pengguna**:
-   - Modal autentikasi dengan mode Masuk, Daftar, dan Demo Login Cepat (Reyvan).
-   - Status login tersimpan di `localStorage` dan menampilkan badge nama pengguna di Navbar.
-7. **Form Kontak Interaktif**:
-   - Validasi data (nama, format email, pesan).
-   - Notifikasi sukses/error tanpa perlu memuat ulang halaman.
-8. **Newsletter**: Berlangganan tips perawatan tanaman dengan umpan balik instan.
-
 ---
 
 ## 📁 Struktur Folder
@@ -74,7 +49,7 @@ tanaman-hias-react/
 
 ---
 
-## 📦 Cara Build untuk Deploy (Production)
+## 📦 Cara Build untuk Deploy
 
 Untuk menghasilkan file statis yang siap di-upload ke Vercel, Netlify, atau GitHub Pages:
 ```bash
