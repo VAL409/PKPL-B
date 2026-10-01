@@ -1,58 +1,72 @@
-# GreenLeaf - Website Toko & Katalog Tanaman Hias 
+# GreenLeaf
 
----
+GreenLeaf adalah website toko tanaman hias yang menyediakan katalog tanaman dan fitur pembelian untuk pengguna.
 
-## 📁 Struktur Folder
+Website ini dikembangkan dengan fokus pada sisi pelanggan, mulai dari melihat tanaman hingga melakukan pemesanan.
+
+## Fitur
+
+### Autentikasi
+- Registrasi akun
+- Login
+- Logout
+
+### Katalog Tanaman
+- Melihat katalog tanaman
+- Mencari tanaman
+- Filter tanaman
+- Melihat detail tanaman
+
+### Keranjang dan Pembelian
+- Menambahkan tanaman ke keranjang
+- Mengubah jumlah tanaman
+- Menghapus tanaman dari keranjang
+- Melihat total harga
+- Checkout
+- Mengisi informasi pengiriman
+- Memilih metode pembayaran
+- Mengonfirmasi pesanan
+
+### Akun Pengguna
+- Melihat pesanan
+- Melihat Tanaman Saya
+- Mengelola profil
+- Mengatur preferensi newsletter
+- Melihat panduan perawatan tanaman
+
+### Bantuan
+- Menghubungi GreenLeaf melalui WhatsApp
+
+## Teknologi
+
+- React
+- JavaScript
+- HTML
+- CSS
+
+## Struktur Sistem
+
+GreenLeaf menggunakan pendekatan customer-facing, sehingga seluruh fitur utama ditujukan untuk pengguna atau pelanggan.
+
+Alur utama pengguna:
 
 ```text
-tanaman-hias-react/
-├── public/
-│   └── images/              # Semua aset foto tanaman asli
-├── src/
-│   ├── data/
-│   │   └── plants.js        # Data terpusat (kategori, harga, foto, deskripsi)
-│   ├── components/
-│   │   ├── Navbar.jsx       # Header, menu navigasi, status login, & ikon cart
-│   │   ├── Hero.jsx         # Banner utama & highlight garansi kualitas
-│   │   ├── AboutSection.jsx # Profil Tentang Kami & keunggulan florist
-│   │   ├── FeaturedSection.jsx # Kartu tanaman pilihan minggu ini
-│   │   ├── CatalogPage.jsx  # Halaman katalog dengan filter & pencarian
-│   │   ├── ContactPage.jsx  # Formulir kontak & info alamat/WhatsApp
-│   │   ├── CartDrawer.jsx   # Keranjang belanja & checkout WhatsApp
-│   │   ├── LoginModal.jsx   # Modal masuk/daftar pengguna
-│   │   ├── LightboxModal.jsx # Pratinjau foto resolusi penuh
-│   │   └── Footer.jsx       # Newsletter, navigasi footer, & media sosial
-│   ├── App.jsx              # Komponen utama & state management
-│   ├── index.css            # Setup Tailwind CSS & styling font
-│   └── main.jsx             # Entry point React
-├── index.html
-├── package.json
-└── vite.config.js
-```
-
----
-
-## 💻 Cara Menjalankan Proyek
-
-1. Buka terminal di folder `tanaman-hias`:
-   ```bash
-   cd tanaman-hias
-   ```
-2. Jalankan server lokal:
-   ```bash
-   npm run dev
-   ```
-3. Buka link di browser:
-   ```
-   http://localhost:5173/
-   ```
-
----
-
-## 📦 Cara Build untuk Deploy
-
-Untuk menghasilkan file statis yang siap di-upload ke Vercel, Netlify, atau GitHub Pages:
-```bash
-npm run build
-```
-File hasil build akan berada di folder `dist/`.
+Registrasi / Login
+       ↓
+Katalog Tanaman
+       ↓
+Cari / Filter Tanaman
+       ↓
+Detail Tanaman
+       ↓
+Keranjang
+       ↓
+Checkout
+       ↓
+Informasi Pengiriman
+       ↓
+Metode Pembayaran
+       ↓
+Konfirmasi Pesanan
+       ↓
+Pesanan Saya
